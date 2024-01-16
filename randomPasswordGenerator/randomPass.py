@@ -6,7 +6,7 @@ if __name__=="__main__":
     s3 = string.digits
     s4 = string.punctuation
 
-pLen = int(input("Enter password length\n"))
+Len = int(input("Enter your desired length\n"))
 
 s = []
 s.extend(list(s1))
@@ -15,4 +15,4 @@ s.extend(list(s3))
 s.extend(list(s4))
 
 random.shuffle(s)
-print("".join(s[0:pLen]))
+print("".join(s[0:Len]))
